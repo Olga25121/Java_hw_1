@@ -5,7 +5,6 @@
 // n! 1 * 2 * 3 * 4 * 5 = 120
 
 import java.util.Scanner;
-
 public class Task_1 {
     public static void main(String[] args) {
         System.out.printf("Введите число n: ");
