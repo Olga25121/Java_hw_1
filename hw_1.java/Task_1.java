@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Task_1 {
     public static void main(String[] args) {
         System.out.printf("Введите число n: ");
-        Scanner iScanner = new Scanner(System.in, "Cp866"); 
+        Scanner iScanner = new Scanner(System.in, "Cp866");
         int num = iScanner.nextInt();
         int triangularNum = 0;
         int factorialNum = 1;
@@ -19,8 +19,7 @@ public class Task_1 {
         }
         System.out.printf("Треугольное число: %s\n", triangularNum);
         System.out.printf("Факториал числа: %s\n", factorialNum);
-        iScanner.close(); 
-                    
+        iScanner.close();
+
     }
 }
-
